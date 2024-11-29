@@ -1,3 +1,4 @@
+// Feat(js):Criação Função que fará a conversão e interação após conversão
 async function convertCurrency() {
     const amount = document.getElementById('amount').value;
     const from = document.getElementById('from').value;
