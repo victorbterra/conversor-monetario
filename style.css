@@ -1,0 +1,14 @@
+/* Feat:(StyleCSS)Padronizando Cores e Resetando CSS */
+:root {
+    --primary: #2962ff;
+    --dark: #1a237e;
+    --light: #e3f2fd;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
