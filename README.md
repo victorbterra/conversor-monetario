@@ -23,5 +23,4 @@ git clone https://github.com/seu-usuario/conversor-moedas.git
 
 Veja o projeto em funcionamento...
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://victorbterra.github.io/listadetarefas/)
+[![portfolio](https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://victorbterra.github.io/conversor-monetario/)
