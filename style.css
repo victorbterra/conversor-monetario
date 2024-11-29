@@ -1,109 +1,126 @@
 /* Feat:(StyleCSS)Padronizando Cores e Resetando CSS */
 :root {
-    --primary: #2962ff;
-    --dark: #1a237e;
-    --light: #e3f2fd;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-  }
+  --primary: #2962ff;
+  --dark: #1a237e;
+  --light: #e3f2fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
 
 /*Feat:(StyleCSS)Estilizando Body e Div principal da aplicação */
 
 body {
-    background: linear-gradient(135deg, var(--primary), var(--dark));
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #333;
-  }
-  
-  .converter {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-    width: 90%;
-    max-width: 400px;
-  }
+  background: linear-gradient(135deg, var(--primary), var(--dark));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.converter {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
 
 /*Feat:(StyleCSS)Estilizando Label e Input da aplicação */
 
 h1 {
-    text-align: center;
-    color: var(--primary);
-    margin-bottom: 1.5rem;
-    font-size: 1.8rem;
-  }
-  
-  .input-group {
-    margin-bottom: 1.5rem;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: var(--dark);
-    font-weight: 500;
-  }
-  
-  input, select {
-    width: 100%;
-    padding: 0.8rem;
-    border: 2px solid #e0e0e0;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    transition: border-color 0.3s;
-  }
-  
-  input:focus, select:focus {
-    outline: none;
-    border-color: var(--primary);
-  }
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
 
 /*Feat:(StyleCSS)Estilizando Botão de Conversão e Resultado da Conversão */
 
 .result {
-    background: var(--light);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--dark);
-  }
-  
-  button {
-    width: 100%;
-    padding: 1rem;
-    background: var(--primary);
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  button:hover {
-    background: var(--dark);
-  }
+  background: var(--light);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: var(--dark);
+}
 
 /*Feat:(StyleCSS)Estilizando Alertas*/
 
 .loading {
-    animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
   }
-  
-  @keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+  50% {
+    opacity: 0.5;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Feat:(StyleCSS): Estilizando Footer */
+
+footer {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
