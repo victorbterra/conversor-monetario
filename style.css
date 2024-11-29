@@ -65,3 +65,33 @@ h1 {
     outline: none;
     border-color: var(--primary);
   }
+
+/*Feat:(StyleCSS)Estilizando Botão de Conversão e Resultado da Conversão */
+
+.result {
+    background: var(--light);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+  
+  button {
+    width: 100%;
+    padding: 1rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: var(--dark);
+  }
