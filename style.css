@@ -12,3 +12,56 @@
     font-family: 'Segoe UI', sans-serif;
   }
 
+/*Feat:(StyleCSS)Estilizando Body e Div principal da aplicação */
+
+body {
+    background: linear-gradient(135deg, var(--primary), var(--dark));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  .converter {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+
+/*Feat:(StyleCSS)Estilizando Label e Input da aplicação */
+
+h1 {
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+    font-weight: 500;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
