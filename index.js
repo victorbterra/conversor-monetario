@@ -25,3 +25,5 @@ async function convertCurrency() {
     result.classList.remove("loading");
   }
 }
+// Feat(JS): Converter automaticamente quando a página carregar
+window.onload = convertCurrency;
